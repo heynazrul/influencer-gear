@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@700&family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+  --pink: #e02c6d;
+  --black: #3a3a3a;
+  --light-gray: #aaaaaa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--black);
+}
+
+/* Utility Class */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 100px auto;
+}
+
+.btn-primary {
+  background-color: var(--pink);
+  color: #fff;
+  border-radius: 14px;
+  border: none;
+  width: 196px;
+  padding: 10px 24px;
+}
+
+.section-description {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 24px;
+  color: #3a3a3a;
+}
+
+header {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+/* ========================================
+               Header Style 
+    =======================================*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+/* Banner Style */
+
+.header-banner {
+  display: flex;
+  align-items: center;
+}
+
+.banner-info .banner-title {
+  font-weight: 700;
+  font-size: 3.25rem; /*52px*/
+  line-height: 70px;
+}
+
+.banner-info .section-description {
+}
+
+.banner-img {
+    background-image: url(../images/Circle\ design.svg);
+    width: 475px;
+    height: 475px;
+}
+
+.banner-img img {
+    width: 440px;
+    height: 414px;
+    object-position: left center;
+}
+
+.company-container {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, rgb(238,237,237, .01) 0%, rgb(158,158,158) 50%, rgba(238, 237, 237, 0.1) 100%) 1;
+     display: flex;
+     justify-content: space-around;
+     padding: 30px 60px;
+}
+
